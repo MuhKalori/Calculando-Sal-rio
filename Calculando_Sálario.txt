@@ -1,0 +1,12 @@
+__autor__ = 'Murilo Calóri'
+
+print('----Calcule o aumento do Salário----')
+
+val = float(input('insira o salário atual: ').replace(',','.'))
+
+perc = float(input('insira a porcentagem do aumento: ').replace(',','.'))
+
+perc = perc/100
+valsal = val * perc + val
+
+print('O salário com aumento de R$ %.2f'%valsal)

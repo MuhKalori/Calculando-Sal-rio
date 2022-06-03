@@ -1,0 +1,6 @@
+__author__ = 'Murilo Calóri'
+n1 = int(input('digite o primeiro valor: '))
+n2 = int(input('digite o segundo valor: '))
+s = n1 + n2
+
+print('A soma do numero {} e o número {} é igual {}'.format(n1, n2, s))
